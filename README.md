@@ -1,4 +1,4 @@
-Classification with an Academic
+** Classification with an Academic **
 Overview
 This repository contains the implementation of a classification model that achieved an accuracy of 83.415%. The project leverages machine learning techniques to classify data, demonstrating a high level of accuracy and robustness.
 
