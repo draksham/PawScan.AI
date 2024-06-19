@@ -35,11 +35,13 @@ You can install the required packages using the following command:
 ```bash
 pip install pandas numpy scikit-learn catboost
 
-PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation
-Overview
+
+
+## PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation
+## Overview
 PointFusion is a generic 3D object detection method that leverages both image and 3D point cloud information. Unlike existing methods that use multi-stage pipelines or hold sensor and dataset-specific assumptions, PointFusion is conceptually simple and application-agnostic.
 
-Key Features
+## Key Features
 Image and Point Cloud Fusion: Combines image data processed by a CNN and point cloud data processed by a PointNet architecture.
 Novel Fusion Network: Predicts multiple 3D box hypotheses and their confidences using the input 3D points as spatial anchors.
 Application-Agnostic: Performs well on diverse datasets without any dataset-specific model tuning.
